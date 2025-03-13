@@ -20,6 +20,7 @@ You’ll notice:
 We define a function logSkyColor().
 Within the function, the color variable is only available within the curly braces of the function.
 If we try to log the same variable outside the function, it throws a ReferenceError.
+
 Instructions
 Checkpoint 1 Passed
 1.
