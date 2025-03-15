@@ -1,0 +1,46 @@
+There are many more array 
+Preview: Docs Methods are object properties that contain functions.
+methods
+ than just 
+Preview: Docs Adds one or more elements to the end of the array and returns the new length.
+.push()
+ and 
+Preview: Docs Loading link description
+.pop()
+. You can read about these array methods on the Docs entry for 
+Preview: Docs Arrays are lists of ordered, stored data that can be of any data type.
+JavaScript Arrays
+.
+
+.pop() and .push() mutate the array on which they’re called. However, there are times that we don’t want to mutate the original array and we can use non-mutating array methods. Be sure to check the Docs to understand the behavior of the method you are using.
+
+Some arrays methods that are available to JavaScript developers include: 
+Preview: Docs Elements of an array are converted to strings and concatenated together, returning the resulting string.
+.join()
+, .slice(), 
+Preview: Docs Loading link description
+.splice()
+, 
+Preview: Docs Loading link description
+.shift()
+, 
+Preview: Docs Adds one or more elements to beginning of array and returns new length.
+.unshift()
+, and .concat() amongst many others. Using these built-in methods makes it easier to do some common tasks when working with arrays.
+
+Below, we will explore some methods that we have not learned yet. We will use these methods to edit a grocery list. As you complete the steps, you can consult the 
+Preview: Docs Loading link description
+Codecademy Docs
+ to learn what each method does!
+
+Instructions
+Checkpoint 1 Enabled
+1.
+Use the .shift() method to remove the first item from the array groceryList.
+
+Log the new groceryList to the console.
+
+Read about 
+Preview: Docs Loading link description
+.shift() in Docs
+.
