@@ -1,0 +1,54 @@
+The While Loop
+12 min
+
+Now, we’re going to learn about a different type of loop: the
+while loop
+Preview: Docs Loading link description
+. To start, let’s convert a for loop into a while loop:
+
+// A for loop that prints 1, 2, and 3
+for (let counterOne = 1; counterOne < 4; counterOne++){
+  console.log(counterOne);
+}
+
+// A while loop that prints 1, 2, and 3
+let counterTwo = 1;
+while (counterTwo < 4) {
+  console.log(counterTwo);
+  counterTwo++;
+}
+
+Copy to Clipboard
+
+Let’s break down what’s happening with our while loop syntax: The counterTwo variable is declared before the loop. Since it’s in the global scope, we can access it inside our while loop.
+
+    We start our loop with the keyword while followed by our stopping condition, or test condition. This will be evaluated before each round of the loop. While the condition evaluates to true, the block will continue to run. Once it evaluates to false the loop will stop.
+    Next, we have our loop’s code block, which prints counterTwo to the console and increments counterTwo.
+
+What would happen if we didn’t increment counterTwo inside our block? If we didn’t include this, counterTwo would always have its initial value, 1. That would mean the testing condition counterTwo < 4 would always evaluate to true and our loop would never stop running! Remember, this is called an infinite loop and it’s something we always want to avoid. Infinite loops can take up all of a computer’s processing power, potentially freezing the machine.
+
+So you may be wondering when to use a while loop! The syntax of a while loop is ideal when we don’t know in advance how many times the loop should run. Think of eating like a while loop: when you start taking bites, you don’t know the exact number you’ll need to become full. Rather, you’ll eat while you’re hungry. In situations when we want a loop to execute an undetermined number of times, while loops are the best choice.
+
+Below the cards array, declare a variable, currentCard, with the let keyword but don’t assign it a value.
+Checkpoint 2 Passed
+
+2.
+
+Create a while loop with a condition that checks if the currentCard does not have the value 'spade'.
+
+Inside the block of your while loop, add the following line of code:
+
+currentCard = cards[Math.floor(Math.random() * 4)];
+
+Copy to Clipboard
+
+Math.floor(Math.random() * 4) will give us a random number from 0 to 3. We’ll use this number to index the cards array, and assign the value of currentCard to a random element from that array.
+
+If you notice the “Run” button spinning continuously or a “Lost connection to Codecademy” message in an exercise, you may have an infinite loop! If the stop condition for our loop is never met, we will create an infinite loop, which stops our program from running anything else. To exit out of an infinite loop in an exercise, refresh the page — then fix the code for your loop.
+Checkpoint 3 Passed
+
+3.
+
+Awesome! Your loop is running, but it’s hard to tell because it doesn’t output anything. Let’s add a console.log() statement to our while block. Inside the block, after you assign currentCard a new value, log currentCard to the console.
+
+For fun, you can run your code a few times and see how the output changes!
